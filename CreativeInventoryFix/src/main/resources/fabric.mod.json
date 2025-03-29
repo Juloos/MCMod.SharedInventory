@@ -3,11 +3,10 @@
     "id": "creativeinventoryfix",
     "version": "${version}",
     "name": "CreativeInventoryFix",
-    "description": "",
+    "description": "Complementary mod for SharedInventory that fixes some quirky behavior of the creative inventory.",
     "authors": ["Juloos"],
     "contact": {},
     "license": "MIT",
-    "icon": "assets/creativeinventoryfix/icon.png",
     "environment": "client",
     "entrypoints": {},
     "mixins": [
