@@ -1,0 +1,24 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "juloos.sharedinventory.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "ServerScoreboardMixin",
+        "sharing.AbstractContainerMenuMixin",
+        "sharing.ArmorStandMixin",
+        "sharing.BowItemMixin",
+        "sharing.InventoryMixin",
+        "sharing.ItemCommandsMixin",
+        "sharing.ItemEntityMixin",
+        "sharing.LivingEntityMixin",
+        "sharing.PlayerMixin",
+        "sharing.ServerGamePacketListenerImplMixin",
+        "sharing.ServerPlaceRecipeMixin",
+        "sharing.ServerPlayerMixin",
+        "sharing.TridentItemMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

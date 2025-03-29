@@ -1,0 +1,9 @@
+/.gradle/
+/.idea/
+/build/
+/run/
+
+/CreativeInventoryFix/.gradle/
+/CreativeInventoryFix/.idea/
+/CreativeInventoryFix/build/
+/CreativeInventoryFix/run/

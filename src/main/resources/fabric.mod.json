@@ -1,0 +1,26 @@
+{
+    "schemaVersion": 1,
+    "id": "sharedinventory",
+    "version": "${version}",
+    "name": "SharedInventory",
+    "description": "Share the inventory between all players of the same team.",
+    "authors": ["Juloos"],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/sharedinventory/icon.png",
+    "environment": "server",
+    "entrypoints": {
+        "main": [
+            "juloos.sharedinventory.SharedInventory"
+        ]
+    },
+    "mixins": [
+        "sharedinventory.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+        "minecraft": ">=${minecraft_version}"
+    },
+    "accessWidener": "sharedinventory.accesswidener"
+}

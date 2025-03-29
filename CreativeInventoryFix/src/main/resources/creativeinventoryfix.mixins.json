@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "juloos.creativeinventoryfix.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "InventoryMenuMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
